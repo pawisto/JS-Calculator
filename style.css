@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: hsl(230, 30%, 20%);
+}
+
+header {
+  height: 3.1rem;
+  background-color: hsl(240, 30%, 39%);
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 1rem;
+  color: hsl(240, 0%, 10%);
+}
+
+#calculator {
+  margin: 1rem;
+  width: 17rem;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px 4px hsla(240, 30%, 39%, 10%);
+}
+
+#display-div {
+  height: 5.1rem;
+  background-color: hsl(350, 0%, 7%);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#display-number {
+  margin: 1rem;
+  color: cornflowerblue;
+  font-size: 1.5rem;
+}
+
+#grid {
+  height: 17rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#equal-button {
+  grid-column: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
